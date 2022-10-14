@@ -12,7 +12,7 @@
 2. Запустить SUT в зависимости нужного подключения к БД. Для этого:
 * Для подключения к БД MySql в терминале IDEA ввести команду: `java "-Dspring.datasource.url=jdbc:mysql://localhost:3306/app" -jar ./artifacts/aqa-shop.jar`
 * Для подключения к БД PostgresSql в терминале IDEA ввести команду: `java "-Dspring.datasource.url=jdbc:postgresql://localhost:5432/app" -jar ./artifacts/aqa-shop.jar`
-* В случае успешного запуска SUT в терминале будет запись: (https://drive.google.com/file/d/1B0VMdFApV-Z1KynfxbP-EYnfXpbG2bYX/view?usp=sharing)
+* В случае успешного запуска SUT в терминале будет запись: ![image](https://drive.google.com/file/d/1B0VMdFApV-Z1KynfxbP-EYnfXpbG2bYX/view?usp=sharing)
 3. Проверить успешность запуска SUT по адресу http://localhost:8080/
 
 ## Запуск тестов и генерация отчета Allure
